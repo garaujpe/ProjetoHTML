@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	<style>
+		body {font-family: futura; color: white;}
+		.button {background-color: transparent; ;text-align: center;}
+		.buttonFavoritos{margin-left: auto;}
+		#primeiraParte{background-color: rgb(107, 142, 35); padding: 20px; text-align: center;}
+		#segundaParte{background: black; padding-left: 40px; padding-right: 40px; padding-top: 20px; padding-bottom: 20px;}
+		#imagemEstrelinha{max-width: 60px; max-height: 60px;}
+		#imagemMoeda{max-width: 60px; max-height: 60px;}
+		#Sigla{font-size: 20px; font-weight: bolder;}
+		#Nome{font-size: 25px; font-weight: bolder;}
+		#valor{font-size: 30px; font-weight: lighter;}
+		#volumes{display: inline-flex; inline-size: -webkit-fill-available;}
+		#valorVolumes{margin-left: auto;}
+		#navigationBotton{background-color: black; display: inline-flex; inline-size: -webkit-fill-available; padding-right: 100px; padding-left: 100px; padding-bottom: 10px;}
+		#textNAvigation{text-align: center;font-size: 10px;color: white}
+		#imagemNavigation{max-width: 25px; max-height: 25px;}
+	</style>
+	<title>
+		Detalhes CriptoMoeda
+	</title>
+</head>
+
+<body>
+	<div id="primeiraParte">
+		<p id="Sigla"> BTC </p>
+		<div>
+			<img id="imagemMoeda" src="ImagemBTC.png">
+		</div>
+		<div>
+			<p id="Nome"> BitCoin </p>
+		</div>
+		<div>
+			<p id="valor"> $5.563,42 </p>
+		</div>
+		<div>
+			<button class="button">
+				<img id="imagemEstrelinha" src="EstrelaFavorito.png">
+			</button>
+		</div>
+	</div>
+	<div id="segundaParte">
+		<p align="center"> Volumes Negociados: </p>
+		<div id="volumes">
+			<div>
+				<p> Ultima Hora: </p>
+			</div>
+			<div id="valorVolumes">
+				<p> $1.760.523.834.930,48 </p>
+			</div>
+		</div>
+		<div id="volumes">
+			<div>
+				<p> Ultima Dia: </p>
+			</div>
+			<div id="valorVolumes">
+				<p> $1.350.303.059.252.229,03 </p>
+			</div>
+		</div>
+		<div id="volumes">
+			<div>
+				<p> Ultima Mês: </p>
+			</div>
+			<div id="valorVolumes">
+				<p> $72.476.099.679.385.351,29 </p>
+			</div>
+		</div>
+	</div>
+	<div id="navigationBotton">
+		<button class="button">
+			<img id="imagemNavigation" src="Moedas.png">
+			<p id="textNAvigation"> Moedas </p>
+		</button>
+		<button class="button buttonFavoritos">
+			<img id="imagemNavigation" src="EstrelaFavorito.png">
+			<p id="textNAvigation"> Favoritos </p>
+		</button>
+	</div>
+</body>
+
+</html>
